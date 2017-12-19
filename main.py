@@ -6,3 +6,4 @@ html = urllib2.urlopen(r'http://fanyi.youdao.com/openapi.do?keyfrom=WrongPronoun
 jsonfetch = json.loads(html.read())
 print(jsonfetch)
 print("us:"+jsonfetch['us-phonetic'])
+# 然而现实很骨感……
